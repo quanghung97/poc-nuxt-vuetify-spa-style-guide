@@ -25,6 +25,7 @@
       pressed
     </v-btn>
     <v-btn
+      dark
       depressed
       disabled
       large
@@ -76,6 +77,7 @@
     <v-btn
       depressed
       color="primary"
+      loading
     >
       Primary
     </v-btn>

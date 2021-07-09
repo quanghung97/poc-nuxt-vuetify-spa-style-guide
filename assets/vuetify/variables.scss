@@ -4,6 +4,7 @@
 @import '~vuetify/src/styles/styles.sass';
 @import '~/assets/color.scss';
 @import '~/assets/custom.scss';
+@import '~/assets/override.scss';
 //
 // The variables you want to modify
 // $font-size-root: 20px;
@@ -131,8 +132,9 @@ $shades:  map-deep-merge(
 
 
 // material custom
+$material-dark: () !default;
 $material-dark:
-map-deep-merge(
+(
   (
     'status-bar': (
       'regular': $black,
@@ -184,7 +186,7 @@ map-deep-merge(
       'solo-inverted-focused-text': rgba(map-get($shades, 'black'), 0.87)
     ),
     'buttons': (
-      'disabled': $white,
+      'disabled': $carbon-1,
       'focused': rgba(map-get($shades, 'white'), 0.12),
       'focused-alt': rgba(map-get($shades, 'white'), 0.1),
       'pressed': rgba(#ccc, 0.25)
@@ -260,8 +262,7 @@ map-deep-merge(
     'divider-percent': 0.12,
     'active-icon-percent': 1,
     'inactive-icon-percent': 0.5
-  ),
-  $material-dark
+  )
 );
 
 
@@ -270,6 +271,7 @@ map-deep-merge(
 $body-font-family: 'Montserrat' sans-serif;
 $btn-border-radius: 20px;
 $btn-rounded-border-radius: 20px;
+$text-field-border-radius: $border-radius-root * 8;
 $btn-text-transform: capitalize !important;
 
 // Scrollbar
