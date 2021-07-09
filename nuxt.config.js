@@ -19,6 +19,9 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    // '~/assets/vuetify/variables.scss',
+    // '~/assets/custom.scss',
+    // '~/assets/override.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -59,14 +62,15 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
+    treeShake: true,
     customVariables: ['~/assets/vuetify/variables.scss'],
-    optionsPath: './vuetify.options.js',
-    treeShake: true
+    optionsPath: './vuetify.options.js'
   },
 
   styleResources: {
     scss: [
-        '~/assets/color.scss'
+      '~/assets/*.scss',
+      // '~/assets/vuetify/*.scss',
     ],
   },
 

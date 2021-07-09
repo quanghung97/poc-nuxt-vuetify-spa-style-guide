@@ -118,8 +118,8 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Input',
-          to: '/input'
+          title: 'Apply Scss Variable',
+          to: '/applyScssVariable'
         },
         {
           icon: 'mdi-chart-bubble',
