@@ -4,26 +4,27 @@
 label.theme--dark + input:-webkit-autofill,
   input:-webkit-autofill:hover,
   input:-webkit-autofill:focus,
-  input:-webkit-autofill:active {
+  input:-webkit-autofill:active,
+  input:-webkit-autofill {
     transition: background-color 5000s ease-in-out 0s;
     -webkit-text-fill-color: $white !important; /* inherit only works in Safari */
     -webkit-text-size-adjust: inherit !important;
   }
 
-  label.theme--light + input:-webkit-autofill,
-  input:-webkit-autofill:hover,
-  input:-webkit-autofill:focus,
-  input:-webkit-autofill:active {
-    transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: $black !important; /* inherit only works in Safari */
-    -webkit-text-size-adjust: inherit !important;
-  }
+  // label.theme--light + input:-webkit-autofill,
+  // input:-webkit-autofill:hover,
+  // input:-webkit-autofill:focus,
+  // input:-webkit-autofill:active {
+  //   transition: background-color 5000s ease-in-out 0s;
+  //   -webkit-text-fill-color: $white !important; /* inherit only works in Safari */
+  //   -webkit-text-size-adjust: inherit !important;
+  // }
 
   // /* When dark theme, then make keychain icon white */
-  label.theme--dark + input::-webkit-credentials-auto-fill-button{
-    background-color: $black !important;
-    color: $white !important;
-  }
+  // label.theme--dark + input::-webkit-credentials-auto-fill-button{
+  //   background-color: $black !important;
+  //   color: $white !important;
+  // }
 
   /* Hide credentials-auto-fill-button in password inputs, only visible on other inputs */
   input[type=password]::-webkit-credentials-auto-fill-button{

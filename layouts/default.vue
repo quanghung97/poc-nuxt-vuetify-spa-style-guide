@@ -123,8 +123,8 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'Input',
+          to: '/input'
         },
         {
           icon: 'mdi-chart-bubble',
