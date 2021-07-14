@@ -34,18 +34,10 @@
   border: 1px solid $carbon-4 !important;
 }
 
-// stepper
-// .v-stepper__step__step {
-//   width: 50px !important;
-//   height: 50px !important;
-// }
-// .v-stepper__step__step.primary {
-//   background: $gradient;
-//   color: $dark !important;
-// }
 
-.v-icon.notranslate.mdi.mdi-chevron-right.theme--dark::after {
+.v-ripple__container {
   background: $yellow-10 !important;
+  opacity: 0.5;
 }
 
 label.theme--dark + input:-webkit-autofill,
