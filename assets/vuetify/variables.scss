@@ -5,6 +5,7 @@
 @import '~/assets/color.scss';
 @import '~/assets/custom.scss';
 @import '~/assets/override.scss';
+@import '~/assets/vuetify/smAndDown.scss';
 //
 // The variables you want to modify
 // $font-size-root: 20px;
@@ -15,7 +16,7 @@ $grid-breakpoints: (
   'sm': 640px,
   'md': 768px,
   'lg': 1024px,
-  'xl': 1280px
+  'xl': 1536px
 );
 
 

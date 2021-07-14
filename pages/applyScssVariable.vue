@@ -212,206 +212,404 @@
 <style lang="scss" scoped>
 .grey-10 {
   color: $grey-10;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .grey-9 {
   color: $grey-9;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .grey-8 {
   color: $grey-8;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .grey-7 {
   color: $grey-7;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .grey-6 {
   color: $grey-6;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .grey-5 {
   color: $grey-5;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .grey-4 {
   color: $grey-4;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .grey-3 {
   color: $grey-3;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .grey-2 {
   color: $grey-2;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .grey-1 {
   color: $grey-1;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 
 .yellow-10 {
   color: $yellow-10;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .yellow-9 {
   color: $yellow-9;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .yellow-8 {
   color: $yellow-8;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .yellow-7 {
   color: $yellow-7;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .yellow-6 {
   color: $yellow-6;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .yellow-5 {
   color: $yellow-5;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .yellow-4 {
   color: $yellow-4;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .yellow-3 {
   color: $yellow-3;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .yellow-2 {
   color: $yellow-2;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .yellow-1 {
   color: $yellow-1;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 
 .blue-10 {
   color: $blue-10;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .blue-9 {
   color: $blue-9;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .blue-8 {
   color: $blue-8;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .blue-7 {
   color: $blue-7;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .blue-6 {
   color: $blue-6;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .blue-5 {
   color: $blue-5;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .blue-4 {
   color: $blue-4;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .blue-3 {
   color: $blue-3;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .blue-2 {
   color: $blue-2;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .blue-1 {
   color: $blue-1;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 
 .orange-10 {
   color: $orange-10;
+  @media #{map-get($display-breakpoints, 'md-and-up')} {
+    background: $white;
+  }
 }
 .orange-9 {
   color: $orange-9;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .orange-8 {
   color: $orange-8;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .orange-7 {
   color: $orange-7;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .orange-6 {
   color: $orange-6;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .orange-5 {
   color: $orange-5;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .orange-4 {
   color: $orange-4;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .orange-3 {
   color: $orange-3;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .orange-2 {
   color: $orange-2;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .orange-1 {
   color: $orange-1;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 
 .red-10 {
   color: $red-10;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .red-9 {
   color: $red-9;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .red-8 {
   color: $red-8;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .red-7 {
   color: $red-7;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .red-6 {
   color: $red-6;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .red-5 {
   color: $red-5;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .red-4 {
   color: $red-4;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .red-3 {
   color: $red-3;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .red-2 {
   color: $red-2;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .red-1 {
   color: $red-1;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 
 .green-10 {
   color: $green-10;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .green-9 {
   color: $green-9;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .green-8 {
   color: $green-8;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .green-7 {
   color: $green-7;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .green-6 {
   color: $green-6;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .green-5 {
   color: $green-5;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .green-4 {
   color: $green-4;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .green-3 {
   color: $green-3;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .green-2 {
   color: $green-2;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .green-1 {
   color: $green-1;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 
 .blackTest {
   color: $dark;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .carbon-1Test {
   color: $carbon-1;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .carbon-2Test {
   color: $carbon-2;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .carbon-3Test {
   color: $carbon-3;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .carbon-4Test {
   color: $carbon-4;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 .whiteTest {
   color: $white;
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    background: $white;
+  }
 }
 </style>
