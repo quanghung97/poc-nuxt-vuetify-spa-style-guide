@@ -57,7 +57,7 @@
         <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
-    <v-main class="shades black">
+    <v-main class="shades dark">
       <v-container>
         <Nuxt />
       </v-container>
@@ -128,8 +128,48 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'check box',
+          to: '/checkbox'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'radio button',
+          to: '/radiobutton'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'switch',
+          to: '/switch'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'chip',
+          to: '/chip'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'date picker',
+          to: '/datepicker'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'tabs',
+          to: '/tabs'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'paginate',
+          to: '/paginate'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'stepper',
+          to: '/stepper'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'carousels',
+          to: '/carousels'
         }
       ],
       miniVariant: false,

@@ -190,7 +190,7 @@
     </div>
 
     <div class="blackTest">
-      $black: #171A23;
+      $dark: #171A23;
     </div>
     <div class="carbon-1Test">
       $carbon-1: #45484F;
@@ -397,7 +397,7 @@
 }
 
 .blackTest {
-  color: $black;
+  color: $dark;
 }
 .carbon-1Test {
   color: $carbon-1;

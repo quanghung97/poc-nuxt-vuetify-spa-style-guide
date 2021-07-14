@@ -117,10 +117,10 @@ $green:  map-deep-merge(
             ),
             $red
           );
-
+$shades: () !default;
 $shades:  map-deep-merge(
             (
-              'black': $black,
+              'dark': $dark,
               'carbon-4': $carbon-4,
               'carbon-3': $carbon-3,
               'carbon-2': $carbon-2,
@@ -137,13 +137,13 @@ $material-dark:
 (
   (
     'status-bar': (
-      'regular': $black,
+      'regular': $dark,
       'lights-out': rgba(map-get($shades, 'black'), 0.2)
     ),
     'app-bar': $carbon-1, // https://vuetifyjs.com/en/components/app-bars/
-    'background': $black,
+    'background': $grey-1,
     'bottom-navigation': map-get($material-dark-elevation-colors, '8'), //https://vuetifyjs.com/en/components/bottom-navigation/
-    'surface': $black,
+    'surface': $dark,
     'calendar': (
       'background-color': #303030,
       'outside-background-color': #202020,
@@ -221,7 +221,7 @@ $material-dark:
       'pressed': 0.32,
       'dragged': 0.16
     ),
-    'tabs': rgba(map-get($shades, 'white'), 0.6),
+    'tabs': $white,
     'toggle-buttons': (
       'color': map-get($shades, 'white')
     ),
@@ -268,7 +268,7 @@ $material-dark:
 
 
 // global
-$body-font-family: 'Montserrat' sans-serif;
+$body-font-family: Montserrat, sans-serif;
 $btn-border-radius: 20px;
 $btn-rounded-border-radius: 20px;
 $text-field-border-radius: $border-radius-root * 8;

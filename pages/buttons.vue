@@ -8,7 +8,7 @@
     <v-btn depressed text large>
       large
     </v-btn>
-    <v-btn depressed large class="gradient shades--text text--black">
+    <v-btn depressed large class="gradient-btn shades--text text--black">
       default
     </v-btn>
     <v-btn
