@@ -1,5 +1,12 @@
 // Ref: https://github.com/nuxt-community/vuetify-module#customvariables
-//
+// define grid breakpoint before import sass
+$grid-breakpoints: (
+  'xs': 0,
+  'sm': 640px,
+  'md': 768px,
+  'lg': 1024px - 16px,
+  'xl': 1536px - 16px
+);
 // Import the Vuetify styles somewhere global
 @import '~vuetify/src/styles/styles.sass';
 @import '~/assets/color.scss';
@@ -11,14 +18,14 @@
 // $font-size-root: 20px;
 
 // viewpoint
-$grid-breakpoints: (
-  'xs': 0,
-  'sm': 640px,
-  'md': 768px,
-  'lg': 1024px,
-  'xl': 1536px
+$container-max-widths: map-deep-merge(
+  (
+    'md': map-get($grid-breakpoints, 'md') * 0.9375,
+    'lg': map-get($grid-breakpoints, 'lg') * 0.9375,
+    'xl': map-get($grid-breakpoints, 'xl') * 0.9375
+  ),
+  $container-max-widths
 );
-
 
 // color
 // scss example: $grey-1

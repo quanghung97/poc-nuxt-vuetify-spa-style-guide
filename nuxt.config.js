@@ -71,7 +71,7 @@ export default {
   styleResources: {
     scss: [
       '~/assets/*.scss',
-      // '~/assets/vuetify/*.scss',
+      '~/assets/vuetify/*.scss',
     ],
   },
 

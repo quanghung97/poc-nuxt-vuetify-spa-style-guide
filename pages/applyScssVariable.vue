@@ -212,8 +212,8 @@
 <style lang="scss" scoped>
 .grey-10 {
   color: $grey-10;
-  @media #{map-get($display-breakpoints, 'xs-only')} {
-    background: $white;
+  @media #{map-get($display-breakpoints, 'sm-and-down')} {
+    background: red;
   }
 }
 .grey-9 {
