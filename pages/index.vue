@@ -18,7 +18,8 @@
 
     <v-card-text>
       <v-list>
-        <v-subheader>I inherit dark from my parent</v-subheader>
+        <v-subheader>{{ $t('I inherit dark from my parent') }} {{ $t('welcome') }}</v-subheader>
+        <nuxt-link :to="localePath('/', 'vi')">{{ $t('sssssssss') }}</nuxt-link>
 
         <v-list-item
           v-for="item in items"

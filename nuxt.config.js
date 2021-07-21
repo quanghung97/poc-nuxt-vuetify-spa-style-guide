@@ -49,7 +49,66 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    // https://i18n.nuxtjs.org/
+    'nuxt-i18n',
+    // https://auth.nuxtjs.org/
+    '@nuxtjs/axios',
+    '@nuxtjs/auth-next',
+    // https://www.npmjs.com/package/@nuxtjs/dotenv
+    '@nuxtjs/dotenv',
   ],
+
+  i18n: {
+    locales: [
+      {
+        code: 'en',
+        file: 'en.js'
+      },
+      {
+        code: 'vi',
+        file: 'vi.js'
+      }
+    ],
+    lazy: true,
+    langDir: 'lang/',
+    defaultLocale: 'en'
+  },
+
+  auth: {
+    strategies: {
+      local: {
+        scheme: 'refresh',
+        token: {
+          property: 'access_token',
+          maxAge: 60
+          // type: 'Bearer'
+        },
+        refreshToken: {
+          property: 'refresh_token',
+          data: 'refresh_token',
+          maxAge: 60 * 60 * 24 * 7
+        },
+        user: {
+          property: 'data',
+          autoFetch: true
+        },
+        endpoints: {
+          login: { url: process.env.API_URL + '/defi-user-service/api/v1.0.0/users/login', method: 'post', propertyName: 'access_token' },
+          refresh: { url: process.env.API_URL + 'defi-user-service/api/v1.0.0/users/refresh_token', method: 'post', propertyName: 'refresh_token' },
+          user: { url: process.env.API_URL + 'defi-user-service/api/v1.0.0/users/profile', method: 'get', propertyName: 'data' },
+          logout: false
+        },
+        autoLogout: false
+      }
+    },
+    redirect: {
+      login: '/',
+      callback: '/',
+      home: '/',
+      logout: '/'
+    }
+
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
